@@ -55,3 +55,46 @@ L'objectif est de permettre à un utilisateur de rechercher un produit via une i
 
 ## 📂 Project Structure
 
+Le projet est organisé de manière modulaire pour faciliter la maintenance et l’extension :  
+
+- `main.py` contient le code principal et la logique de scraping.  
+- `data/` stocke l’historique des prix, les paramètres de configuration sécurisés et les logs.  
+- `requirements.txt` liste toutes les dépendances nécessaires.  
+- `.gitignore` protège les fichiers sensibles et temporaires.  
+
+Cette structure permet de séparer clairement le code, les données et les configurations, tout en rendant le projet facilement réutilisable et extensible
+
+
+## ⚙️ Instructions d'installation 
+
+1. Cloner le dépôt :
+git clone https://github.com/rayhanabenhim1-glitch/cdiscount-price-tracker.git
+
+2. Aller dans le dossier du projet :
+cd cdiscount-price-tracker
+
+3. Installer les dépendances nécessaires :
+pip install -r requirements.txt
+
+4. Lancer l’application :
+python main.py
+
+
+## ▶️ Utilisation
+
+Une fois l’application lancée, l’utilisateur bénéficie d’une surveillance automatique des prix :
+
+Recherche instantanée d’un produit sur Cdiscount avec récupération des meilleures offres.
+
+Calcul des 3 meilleures recommandations en combinant prix, note client et rapidité de livraison.
+
+Comparaison avec l’historique local pour détecter les baisses de prix.
+
+Envoi d’alertes email automatisées si une opportunité d’achat est détectée.
+
+Toutes ces étapes sont totalement automatisées, sans intervention manuelle après le lancement.
+Cette approche met en valeur la puissance du web scraping éthique, l’automatisation et l’analyse de données intégrée dans l’outil.
+
+
+
+
