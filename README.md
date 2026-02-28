@@ -65,6 +65,7 @@ Le projet est organisé de manière modulaire pour faciliter la maintenance et l
 Cette structure permet de séparer clairement le code, les données et les configurations, tout en rendant le projet facilement réutilisable et extensible
 
 
+
 ## ⚙️ Instructions d'installation 
 
 1. Cloner le dépôt :
@@ -80,17 +81,18 @@ pip install -r requirements.txt
 python main.py
 
 
+
 ## ▶️ Utilisation
 
 Une fois l’application lancée, l’utilisateur bénéficie d’une surveillance automatique des prix :
 
-Recherche instantanée d’un produit sur Cdiscount avec récupération des meilleures offres.
+1. Recherche instantanée d’un produit sur Cdiscount avec récupération des meilleures offres.
 
-Calcul des 3 meilleures recommandations en combinant prix, note client et rapidité de livraison.
+2. Calcul des 3 meilleures recommandations en combinant prix, note client et rapidité de livraison.
 
-Comparaison avec l’historique local pour détecter les baisses de prix.
+3. Comparaison avec l’historique local pour détecter les baisses de prix.
 
-Envoi d’alertes email automatisées si une opportunité d’achat est détectée.
+4. Envoi d’alertes email automatisées si une opportunité d’achat est détectée.
 
 Toutes ces étapes sont totalement automatisées, sans intervention manuelle après le lancement.
 Cette approche met en valeur la puissance du web scraping éthique, l’automatisation et l’analyse de données intégrée dans l’outil.
