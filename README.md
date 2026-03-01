@@ -53,10 +53,25 @@ L'objectif est de permettre à un utilisateur de rechercher un produit via une i
 
 ---
 
+
 ## 📂 Project Structure
 
-Le projet est organisé de manière modulaire pour faciliter la maintenance et l’extension :  
+## Dépendances
 
+Les modules suivants sont indispensables et listés dans le `requirements.txt` :
+- `selenium` & `webdriver-manager` (Navigation automatique)
+- `beautifulsoup4` (Analyse HTML)
+- `requests` (Vérification robots.txt)
+- `tkinter` (Interface graphique - inclus avec Python)
+
+## Mentions Légales
+
+Ce projet est réalisé dans un but pédagogique uniquement. 
+L'utilisation intensive du scraping peut être soumise aux conditions 
+générales d'utilisation du site Cdiscount. Les auteurs ne sont pas 
+responsables d'une utilisation abusive.
+
+Le projet est organisé de manière modulaire pour faciliter la maintenance et l’extension :  
 - `main.py` contient le code principal et la logique de scraping.  
 - `data/` stocke l’historique des prix, les paramètres de configuration sécurisés et les logs.  
 - `requirements.txt` liste toutes les dépendances nécessaires.  
